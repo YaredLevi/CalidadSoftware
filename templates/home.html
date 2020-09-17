@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block title %}EcomApp Pastelería{% endblock %}
+
+{% block content %}
+<h2>Productos</h2>
+<p>Bienvenido(-a), {{ username }}!</p>
+
+
+{% for producto in articulos %}
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">{{producto.NOMBRE}}</h5>
+                <h5 class="card-title">{{producto.categoria}}</h5>
+                <img class="img-fluid mb-3" src="static/products/{{ producto.IMAGEN }}" alt="{{ producto.NOMBRE }}" width="50%" height="50%">
+                <p class="card-text">${{ producto.PRECIO }}</p>
+                <a href="#" class="card-link">Comprar</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+{% endblock %}
