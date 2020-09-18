@@ -9,10 +9,10 @@ app = Flask(__name__)
 app.secret_key = 'lavidasimplemente'
 
 # Conexió a la base de datos
-app.config['MYSQL_HOST'] = 'server' 
-app.config['MYSQL_USER'] = 'usuario'
-app.config['MYSQL_PASSWORD'] = 'password'
-app.config['MYSQL_DB'] = 'base de datos'
+app.config['MYSQL_HOST'] = 'sql10.freesqldatabase.com' 
+app.config['MYSQL_USER'] = 'sql10366229'
+app.config['MYSQL_PASSWORD'] = 'yBqAVWrDHD'
+app.config['MYSQL_DB'] = 'sql10366229'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 print ("Comexión a MySQL, exitosa!!")
