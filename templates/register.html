@@ -2,16 +2,17 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Registro EcomApp</title>
+		<title>Zafiro</title>
 		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 	</head>
-	<body>
+	<body style="background-color: #343A40;">
 		<div class="register">
-			<h1>Registro</h1>
+			<h1>Bienvenido a Zafiro</h1>
+			
 			<div class="links">
-				<a href="{{ url_for('login') }}">Login</a>
-				<a href="{{ url_for('register') }}" class="active">Registro</a>
+				<a style="color: #343A40;" href="{{ url_for('login') }}">Login</a>
+				<a style="color: #343A40;" href="{{ url_for('register') }}" class="active">Registro</a>
 			</div>
 			<form action="{{ url_for('register') }}" method="post" autocomplete="off">
 				<label for="username">

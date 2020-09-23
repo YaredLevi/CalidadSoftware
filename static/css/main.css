@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+}
+.card{
+    height: 490px;
+}
+
+.btn{
+    position: absolute;
+    top: 011cm;
+    left: 2em;
+}
+
+.card-text{
+    position: absolute;
+    top: 010cm;
+    text-align: center;
+}
+
+#centrarh{
+text-align: center;
+}
+#tlogo{
+    font-size: 200%;
+    padding-left: 2%;
+}
+
+#tamanonav{
+   font-size: 25px;
+}
+
+#imgfooter{
+    display:block;
+    margin:auto;
+    }
+
+#backnegro{
+    background-color: whitesmoke;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#wrapper{
+    padding-bottom: 81px;
+    min-height: calc(50% - 81px);
+    position: relative;
+}
+ 
+header {
+    color: white;
+    background-color: #0086CD;
+}
+
+
+.container {
+    padding:12px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}

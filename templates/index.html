@@ -7,12 +7,13 @@
 		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 	</head>
-	<body>
+	<body style="background-color: #343A40;">
 		<div class="login">
-			<h1>Login</h1>
+			<h1>Bienvenido a Zafiro</h1>
+		
 			<div class="links">
-				<a href="{{ url_for('login') }}" class="active">Login</a>
-				<a href="{{ url_for('register') }}">Registro</a>
+				<a style="color: #343A40;" href="{{ url_for('login') }}" class="active">Ingresa</a>
+				<a style="color: #343A40;" href="{{ url_for('register') }}">Registrate</a>
 			</div>
 			<form action="{{ url_for('login') }}" method="post">
 				<label for="username">

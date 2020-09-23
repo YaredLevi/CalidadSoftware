@@ -1,0 +1,9 @@
+@font-face{
+    font-family:"Bungeefont";
+    src:url("../fonts/Bungee-Regular.ttf") format("truetype")
+}
+
+@font-face{
+    font-family:"Stintfont";
+    src:url("../fonts/StintUltra-Regular.ttf") format("truetype")
+}
